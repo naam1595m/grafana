@@ -90,6 +90,18 @@ global.ResizeObserver = class ResizeObserver {
       left: 100,
       right: 0,
     },
+    borderBoxSize: [
+      {
+        inlineSize: 500,
+        blockSize: 500,
+      },
+    ],
+    contentBoxSize: [
+      {
+        inlineSize: 500,
+        blockSize: 500,
+      },
+    ],
     target: {
       // Needed for react-virtual to work in tests
       getAttribute: () => 1,
